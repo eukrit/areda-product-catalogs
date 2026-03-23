@@ -1,0 +1,772 @@
+[
+  {
+    "id": "vis-sofa-gamma-3seat",
+    "name": "3-Seat Sofa Adjustable Back",
+    "current_cat": "sofas",
+    "correct_cat": "armchairs",
+    "image_shows": "A modern armchair featuring black tufted leather upholstery and a curved wooden frame with metal legs. The design combines comfort with a sleek, contemporary aesthetic."
+  },
+  {
+    "id": "hw1-s237",
+    "name": "Balance Stumps Set of 12",
+    "current_cat": "accessories",
+    "correct_cat": "armchairs",
+    "image_shows": "This image displays a modern armchair with a wooden frame and upholstered cushions, presented in three different views (front, side, and top) with dimensions. The design suggests a minimalist and functional aesthetic."
+  },
+  {
+    "id": "vis-bench-molteni",
+    "name": "Bathroom Bench",
+    "current_cat": "sofas",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern lounge chair with a dark brown leather base and light beige fabric upholstery, featuring a high back and a separate headrest cushion. Beside it is a black round side table with a book on top."
+  },
+  {
+    "id": "vis-bed-custom-180-full",
+    "name": "Bed King Full + Headboard",
+    "current_cat": "beds",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern lounge chair featuring black tufted leather upholstery and a curved wooden frame with metal legs. The design combines comfort with a sleek, contemporary aesthetic."
+  },
+  {
+    "id": "vis23-mdla-1850a",
+    "name": "Coffee Table Large",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A round coffee table with a white marble top and a dark metal base featuring a unique geometric design with a large circular element."
+  },
+  {
+    "id": "vis-ct-minotti-venice",
+    "name": "Coffee Table Venice Brown Marble",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A modern, rectangular coffee table made of dark, possibly black-stained wood, featuring a slatted design on one side of its top surface. Its minimalist design is characterized by clean lines and sturdy, integrated legs."
+  },
+  {
+    "id": "vis-console-ash-ss",
+    "name": "Console Table Ash + SS",
+    "current_cat": "tables",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern lounge chair featuring black tufted leather upholstery and a curved wooden frame with metal legs. The design combines classic comfort with contemporary aesthetics."
+  },
+  {
+    "id": "vis-console-gold",
+    "name": "Console Table Gold-Plated",
+    "current_cat": "tables",
+    "correct_cat": "armchairs",
+    "image_shows": "A modern armchair featuring black tufted leather upholstery and a curved wooden frame with metal legs. The design combines classic comfort with contemporary aesthetics."
+  },
+  {
+    "id": "vis-arcahorn-console",
+    "name": "Console Table Horn Inlays",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A set of two modern, rectangular coffee tables with dark brown wooden tops and contrasting bases, one in brushed metal and the other in black. The tables feature rounded edges and a sleek, minimalist design."
+  },
+  {
+    "id": "vis-dchair-minotti-49",
+    "name": "Dining Armchair Mocha Oak",
+    "current_cat": "dining-chairs",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A rectangular coffee table made of dark wood, featuring a slatted design on one side of its top surface. It has a minimalist and contemporary aesthetic with sturdy, block-like legs."
+  },
+  {
+    "id": "vis-dchair-minotti-33",
+    "name": "Dining Armchair SODA Leather",
+    "current_cat": "dining-chairs",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A rectangular coffee table made of dark wood, featuring a slatted design on one side of its top surface. It has a minimalist and contemporary style with sturdy, block-like legs."
+  },
+  {
+    "id": "vis16-ny-610a",
+    "name": "Dining Chair Ash",
+    "current_cat": "dining-chairs",
+    "correct_cat": "dining-chairs",
+    "image_shows": "A modern dining chair crafted from dark wood, featuring a curved backrest and armrests, with a light gray upholstered seat cushion. The design is sleek and minimalist, emphasizing natural materials and comfort."
+  },
+  {
+    "id": "vis01-ql-490a",
+    "name": "Dining Chair Cuoio Leather",
+    "current_cat": "dining-chairs",
+    "correct_cat": "armchairs",
+    "image_shows": "A contemporary armchair featuring a tan leather frame with visible stitching, a darker brown leather seat cushion, and a light gray fabric throw pillow. The chair is supported by dark wooden legs arranged in a geometric, V-shaped pattern."
+  },
+  {
+    "id": "vis-lina",
+    "name": "Dining Chair GAMMA Leather",
+    "current_cat": "dining-chairs",
+    "correct_cat": "armchairs",
+    "image_shows": "This image features a unique, sculptural armchair with a heart-shaped back and rounded arms, upholstered in a striking black and beige striped fabric. It is accompanied by a large, dark teal spherical ottoman, connected by a black cord."
+  },
+  {
+    "id": "vis22-tn-640a",
+    "name": "Dining Chair Mixed Material",
+    "current_cat": "dining-chairs",
+    "correct_cat": "dining-chairs",
+    "image_shows": "A modern dining chair crafted from dark wood, featuring a curved backrest and armrests, complemented by a light gray upholstered seat cushion. The chair exhibits a minimalist design with smooth, rounded edges."
+  },
+  {
+    "id": "vis23-tla-1800b",
+    "name": "Dining Table",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A set of two modern, rectangular coffee tables with dark brown wooden tops and contrasting bases, one in brushed metal and the other in black. The tables feature rounded edges and a sleek, minimalist design."
+  },
+  {
+    "id": "vis-schilling",
+    "name": "Dining Table White Marble",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A rectangular coffee table made of dark, possibly black, wood with a slatted design on one side of the tabletop. It features a minimalist and modern aesthetic with sturdy, block-like legs."
+  },
+  {
+    "id": "hw1-s723",
+    "name": "Doodle Chalkboard L120",
+    "current_cat": "accessories",
+    "correct_cat": "armchairs",
+    "image_shows": "This image displays a modern armchair with a wooden frame and upholstered cushions, presented in three different views (front, side, and top) with dimensions. The style appears minimalist and functional."
+  },
+  {
+    "id": "vis-office-giorgetti",
+    "name": "Executive Office Chair",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A set of two modern, rectangular coffee tables with dark brown wooden tops and contrasting bases, one in brushed metal and the other in black. The tables feature rounded edges and a sleek, minimalist design."
+  },
+  {
+    "id": "vis-chair-maxalto",
+    "name": "Lounge Chair GAMMA + Oak",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "This is a technical drawing of a lounge chair with a swivel base, featuring a plush, upholstered design with armrests and a slightly reclined back. The chair appears to be designed for comfort and relaxation, with visible stitching details on the backrest and seat."
+  },
+  {
+    "id": "vis-sample-box",
+    "name": "Material Sample Box Set",
+    "current_cat": "accessories",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern lounge chair featuring black tufted leather upholstery and a curved wooden frame with metal legs. The design combines classic comfort with contemporary aesthetics."
+  },
+  {
+    "id": "vis01-sf-13b",
+    "name": "Modular Corner (Full Grain Leather)",
+    "current_cat": "modular-sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A modern three-seater modular sofa in a dark gray leather finish, featuring a sleek design with thin black metal frames and small wooden armrests on the right side. It includes three back cushions and three smaller throw pillows for added comfort."
+  },
+  {
+    "id": "vis23-dpx-2100a-l",
+    "name": "Modular Left Chaise + Marble Table",
+    "current_cat": "modular-sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A large, modern modular sofa with a low profile, featuring a mix of light brown and dark gray upholstered sections. The sofa has tufted seating and is adorned with various throw pillows in complementary colors and textures."
+  },
+  {
+    "id": "vis23-dpx-2360a-l",
+    "name": "Modular Left Corner A + Marble Table",
+    "current_cat": "modular-sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A large, modern modular sofa with a low profile, upholstered in a mix of light brown and dark gray velvet or similar soft fabric. It features tufted seating and loose back cushions, with some decorative throw pillows in complementary colors."
+  },
+  {
+    "id": "vis23-dpx-3170a-r",
+    "name": "Modular Right L-Shape + Marble Table",
+    "current_cat": "modular-sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A large, modern modular sofa with a low profile, upholstered in a mix of light brown and dark gray velvet or similar soft fabric, featuring tufted seats and various throw pillows. The sofa is composed of multiple sections, including a chaise lounge on the left and a corner section on the right, resting on a dark, possibly metal, base."
+  },
+  {
+    "id": "vis23-dpx-1320a",
+    "name": "Modular Sofa 2-Seat",
+    "current_cat": "modular-sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A large, modern modular sofa with a low profile, featuring sections upholstered in both light brown and dark gray velvet-like fabric, accented with various throw pillows. The sofa has a tufted seat design and rests on a dark, recessed base."
+  },
+  {
+    "id": "vis23-dpx-1060a",
+    "name": "Modular Sofa Single Module",
+    "current_cat": "modular-sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A large, modern modular sofa with a low profile, featuring sections upholstered in light brown and dark gray velvet-like fabric. It includes various cushions in matching and contrasting colors, such as a rust-orange and a textured gray."
+  },
+  {
+    "id": "vis-ns-custom-leather",
+    "name": "Night Stand Leather",
+    "current_cat": "storage",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern lounge chair featuring black tufted leather upholstery and a curved wooden frame with sleek metal legs."
+  },
+  {
+    "id": "vis-fetes-2",
+    "name": "Night Stand White Lacquer",
+    "current_cat": "storage",
+    "correct_cat": "beds",
+    "image_shows": "A modern upholstered bed with a tall, winged headboard featuring a tufted, geometric pattern in a neutral gray fabric. The bed includes a white mattress and pillows, topped with a dark gray throw blanket, and stands on slender black metal legs."
+  },
+  {
+    "id": "vis-ottoman-gamma",
+    "name": "Ottoman GAMMA Leather",
+    "current_cat": "sofas",
+    "correct_cat": "armchairs",
+    "image_shows": "A modern armchair featuring black tufted leather upholstery and a curved wooden frame with metal legs. It has a sleek and sophisticated design, combining comfort with contemporary aesthetics."
+  },
+  {
+    "id": "vis-trinity-sofa-out",
+    "name": "Outdoor 2-Seater Sofa",
+    "current_cat": "outdoor",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern lounge chair with a curved back and seat, upholstered in a warm brown leather or suede-like fabric, supported by a dark wooden frame and legs. The design is sleek and minimalist, offering a comfortable yet stylish seating option."
+  },
+  {
+    "id": "vis-trinity-outdoor-alu",
+    "name": "Outdoor Armchair Aluminum",
+    "current_cat": "outdoor",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern lounge chair with a curved back and seat, upholstered in a warm brown leather or suede-like fabric, supported by a dark, possibly black, wooden frame and legs."
+  },
+  {
+    "id": "vis-trinity-outdoor-wood",
+    "name": "Outdoor Armchair Mangrove",
+    "current_cat": "outdoor",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern lounge chair with a curved back and seat, upholstered in a warm brown leather or suede-like fabric, supported by a dark wooden frame and legs."
+  },
+  {
+    "id": "vis-dtable-porro-marble",
+    "name": "Round Dining Table Carrara",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "This image features a contemporary living room setting with a curved gray fabric sofa and two unique side tables. The side tables have a sculptural, organic shape, one with a dark wood finish and a white marble top, and the other with a lighter wood finish and a black glass top."
+  },
+  {
+    "id": "hw5-sd001-v01",
+    "name": "SD001 Hardware Unit V01",
+    "current_cat": "accessories",
+    "correct_cat": "armchairs",
+    "image_shows": "This image displays a minimalist armchair with a wooden frame and upholstered cushions, presented in three different views (front, side, and top) with dimensions. The design suggests a mid-century modern or Scandinavian aesthetic."
+  },
+  {
+    "id": "hw4-sz001-v02",
+    "name": "SZ001 Hardware Unit V02",
+    "current_cat": "accessories",
+    "correct_cat": "armchairs",
+    "image_shows": "This image displays a minimalist armchair with a wooden frame and upholstered cushions, presented in three different views (front, side, and top) with dimensions. The design suggests a mid-century modern or Scandinavian style."
+  },
+  {
+    "id": "vis-robert",
+    "name": "Side Table Marble",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "Two dark brown wooden side tables are shown, one taller and one shorter, both featuring a round top and a lower round shelf. The design is modern and minimalist, highlighting the natural wood grain."
+  },
+  {
+    "id": "vis-marble-st-bb",
+    "name": "Side Table Port Laurent Marble",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "This image features a contemporary living room setting with two unique side tables and a curved sofa. The side tables have a distinctive wavy shape, one with a dark wood finish and a light marble top, and the other with a lighter wood finish and a dark glass top. The sofa is upholstered in a textured grey fabric with black leather accents."
+  },
+  {
+    "id": "vis-wilder",
+    "name": "Side Table Round",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "Two modern side tables with unique, undulating shapes are featured, one in dark wood with a marble top and the other in lighter wood with a black glass top, accompanied by a contemporary gray sofa and a sleek black lamp. The overall style is sophisticated and minimalist."
+  },
+  {
+    "id": "vis-sofa-gamma-1seat",
+    "name": "Single Sofa Adjustable Back",
+    "current_cat": "sofas",
+    "correct_cat": "armchairs",
+    "image_shows": "A modern armchair featuring black tufted leather upholstery and a curved wooden frame with sleek metal legs."
+  },
+  {
+    "id": "vis23-rn-900a",
+    "name": "Single Sofa Litchi Leather",
+    "current_cat": "sofas",
+    "correct_cat": "armchairs",
+    "image_shows": "A modern armchair featuring black tufted leather upholstery and a curved wooden frame with metal legs. It has a sleek and sophisticated design, combining comfort with contemporary aesthetics."
+  },
+  {
+    "id": "vis24-xz-555a",
+    "name": "Stool Napa Leather Woven",
+    "current_cat": "dining-chairs",
+    "correct_cat": "dining-chairs",
+    "image_shows": "A modern dining chair made of dark brown wood with a curved backrest and armrests, featuring a light brown or taupe upholstered seat cushion. The chair has a minimalist design with smooth, rounded edges."
+  },
+  {
+    "id": "vis-cushion-gamma",
+    "name": "Throw Cushion Leather",
+    "current_cat": "accessories",
+    "correct_cat": "armchairs",
+    "image_shows": "A contemporary armchair featuring black tufted leather upholstery and a curved wooden frame with metal legs. The design combines comfort with a sleek, sophisticated aesthetic."
+  },
+  {
+    "id": "vis-closet-porro",
+    "name": "Walk-in Closet Cabinet",
+    "current_cat": "storage",
+    "correct_cat": "side-tables",
+    "image_shows": "A modern living room features a curved sofa in a textured gray fabric, accompanied by two unique side tables with fluted wood bases and contrasting tops. The larger side table has a black glass top, while the smaller one features a white marble top with brown veining."
+  },
+  {
+    "id": "vis-desk-minotti",
+    "name": "Writing Desk Mocha Oak",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A sleek, rectangular coffee table crafted from dark, possibly black-stained wood, featuring a slatted design on one side of its top surface. Its minimalist aesthetic is enhanced by sturdy, block-like legs that are integrated into the tabletop's structure."
+  },
+  {
+    "id": "m24-00681",
+    "name": "edra进口原版-单人沙发 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "This image features two blue upholstered lounge chairs with a unique, organic shape, and one yellow upholstered lounge chair with a similar soft, rounded design. The chairs are accompanied by three round coffee tables with light wood tops and black metal bases, and one round side table with a white top and black metal base."
+  },
+  {
+    "id": "vt25-00144",
+    "name": "云柚-茶桌 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "dining-tables",
+    "image_shows": "A long, rectangular wooden table with a built-in tea set and marble accents is surrounded by several light-colored upholstered chairs with dark frames. The overall style is modern and elegant, suitable for a meeting or tea ceremony."
+  },
+  {
+    "id": "vt25-00181",
+    "name": "伊夫—沙发 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "This image displays a set of modular sofa components, including a three-seater sofa, a chaise lounge, and a corner piece, all in a light, neutral color. The style appears modern and comfortable, with plush cushions and a low-profile design."
+  },
+  {
+    "id": "vt25-00208",
+    "name": "伊斯—书椅 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern wooden armchair with a dark brown frame and houndstooth patterned upholstery in brown and white. The chair features a rounded backrest and a square seat, both upholstered, and has a minimalist design."
+  },
+  {
+    "id": "vt25-00175",
+    "name": "伊森—边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "armchairs",
+    "image_shows": "A plush, olive green armchair with a unique, sculptural design and a black and white patterned throw pillow. It features a swivel base and a glossy brown armrest detail."
+  },
+  {
+    "id": "vt25-00687",
+    "name": "克拉丽莎—单人沙发 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A contemporary armchair upholstered in a striking black and white cowhide pattern, featuring visible stitching details along the dark-colored armrests and base. The design combines a plush, inviting seat with a structured, modern silhouette."
+  },
+  {
+    "id": "dg-s33-2",
+    "name": "单人沙发 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern, minimalist lounge chair in a warm brown leather finish, featuring a unique, elongated armrest design. The chair has a sleek profile with black legs, set against a light gray wall and dark gray tiled floor."
+  },
+  {
+    "id": "vt24-01209",
+    "name": "单人沙发 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern, low-profile armchair upholstered in a textured, olive green fabric. It features soft, rounded edges and visible seam detailing, giving it a comfortable and inviting appearance."
+  },
+  {
+    "id": "dv25-00425",
+    "name": "卡纳瑞—沙发 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A modern, light-colored modular sofa is depicted, featuring a chaise lounge section and multiple back cushions. The design is minimalist with a low profile, suggesting comfort and contemporary style."
+  },
+  {
+    "id": "dg-s52-1",
+    "name": "哈雅玛—边柜 (Showroom)",
+    "current_cat": "storage",
+    "correct_cat": "console-tables",
+    "image_shows": "A modern console table made of light-colored, possibly terrazzo or marble, material with a rounded top and two rectangular supports. It features a minimalist design, serving as a display surface for decorative items."
+  },
+  {
+    "id": "vt24-01190",
+    "name": "图玛—茶几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A large, L-shaped modular sofa is depicted in a top-down, line-art style. It features multiple cushions, including two large back cushions and two smaller throw pillows on each end, suggesting a comfortable and relaxed aesthetic."
+  },
+  {
+    "id": "dv25-00639",
+    "name": "天秤座—床 (Showroom)",
+    "current_cat": "beds",
+    "correct_cat": "beds",
+    "image_shows": "A contemporary bed with a plush, upholstered frame and headboard in a light beige, textured fabric, featuring two distinct, rounded headrest cushions. It includes a matching upholstered bench at the foot of the bed, both supported by dark, sleek metal legs."
+  },
+  {
+    "id": "dv25-00622",
+    "name": "天秤座—床尾榻 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "nightstands",
+    "image_shows": "A compact, rectangular nightstand or side table with rounded edges, finished in a light, glossy beige or cream color. It features a single drawer with a reflective surface that shows a subtle diagonal highlight."
+  },
+  {
+    "id": "vt24-01374",
+    "name": "奥坦—边柜 (Showroom)",
+    "current_cat": "storage",
+    "correct_cat": "storage",
+    "image_shows": "A modern, modular sideboard in a vibrant yellow color with chrome-plated steel frames and panels. It features two closed storage compartments with handles and two open shelves below."
+  },
+  {
+    "id": "dg-s03-1",
+    "name": "奥斯汀—墩 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "beds",
+    "image_shows": "A modern and luxurious bedroom set featuring a large bed with a light grey upholstered headboard and base, dressed in white bedding with black and white patterned throws and decorative pillows. A black nightstand with a unique black table lamp stands beside the bed, all resting on a round textured grey rug over dark marble flooring."
+  },
+  {
+    "id": "vt24-00370",
+    "name": "奥林-展示架 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "storage",
+    "image_shows": "A large, dark wood display shelf or room divider with a modern design featuring vertical slat details and open shelving. It has a minimalist aesthetic with some warm brown accents visible within the shelves."
+  },
+  {
+    "id": "dg-s18-1",
+    "name": "安瑟姆 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "sofas",
+    "image_shows": "A contemporary three-seater sofa upholstered in light beige leather, featuring plush cushions and a sleek, minimalist design with dark, slender legs."
+  },
+  {
+    "id": "vt24-01174",
+    "name": "屏风 (x1) (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern lounge chair with a light gray quilted fabric upholstery and a light wood swivel base. Beside it is a small, round black glass side table with a decorative vase, and behind them is a dark brown slatted room divider."
+  },
+  {
+    "id": "vt24-01176",
+    "name": "展示架 (x2) (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "storage",
+    "image_shows": "A large, modern, dark brown and glass bookshelf or room divider with multiple shelves filled with books and decorative items. The design features a mix of solid dark wood-like panels and clear glass sections, giving it a sophisticated and open feel."
+  },
+  {
+    "id": "dg-s71-1",
+    "name": "巴迪—墩 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "sofas",
+    "image_shows": "A contemporary brown leather sofa with plush cushions and a sleek design is featured in the foreground, complemented by a unique dark red stool with sculpted legs. In the background, various swatches of leather in different colors are displayed, suggesting a showroom setting."
+  },
+  {
+    "id": "dv25-00674",
+    "name": "库贝—沙发 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "This image displays a modular sofa with a modern design, upholstered in a textured, golden-brown fabric. The sofa comes in various configurations, including L-shaped and straight sections, with dimensions provided for each module."
+  },
+  {
+    "id": "dg-s76-1",
+    "name": "弗里曼+劳伦斯+S—沙发 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A top-down view of a modular sofa arrangement, featuring two distinct seating sections with cushions, indicating a flexible and adaptable design. The style appears contemporary, with a focus on functionality and space optimization, suitable for a modern living area."
+  },
+  {
+    "id": "vt25-00179",
+    "name": "托卡—边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "The image displays a set of round, low-profile ottomans or side tables with a contemporary design. They appear to be upholstered or have a smooth, solid surface, likely in a neutral color given the white background."
+  },
+  {
+    "id": "vt25-00504",
+    "name": "托瑞玛—床头柜 (x2) (Showroom)",
+    "current_cat": "storage",
+    "correct_cat": "storage",
+    "image_shows": "A stack of three wooden storage boxes, each with a drawer and a unique pull handle, showcasing a minimalist and modern design. The wood has a warm, natural tone with visible grain, and the boxes are slightly offset from each other, creating an interesting sculptural form."
+  },
+  {
+    "id": "vt25-00185",
+    "name": "拉图—边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern chaise lounge with a brown leather headrest and a patchwork cowhide seat in shades of brown and white. It features a sleek, dark metal frame."
+  },
+  {
+    "id": "vt24-01203",
+    "name": "拉娜—玄关 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "console-tables",
+    "image_shows": "A sleek, modern console table or sideboard in a deep blue, high-gloss finish, featuring a minimalist design with clean lines and dark accents. It appears to be made of lacquered wood or a similar reflective material, set against a light beige wall and dark grey marble-patterned floor."
+  },
+  {
+    "id": "dv25-00705",
+    "name": "撒罗—餐桌 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "dining-chairs",
+    "image_shows": "A modern dining chair with a dark brown wooden frame and a curved backrest and seat upholstered in ribbed orange-brown corduroy fabric. The chair features a minimalist design with a comfortable, enveloping shape."
+  },
+  {
+    "id": "dg-s13-3",
+    "name": "斯特拉—茶几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A modern coffee table with a dark brown marble top and a white, curved base. It features an open storage compartment below the top surface, revealing a dark, possibly glass or lacquered, lower shelf."
+  },
+  {
+    "id": "vt24-01196",
+    "name": "方—餐桌 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "dining-chairs",
+    "image_shows": "A modern dining chair with a dark wood frame and light beige leather upholstery. It features a slightly reclined backrest and tapered legs, with the front legs having metal caps."
+  },
+  {
+    "id": "dg-s71-2",
+    "name": "柯多尼 —茶几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "This image features a contemporary living room set with two distinct sofas and two coffee tables. The sofas are upholstered in brown and tan leather, offering a sleek and comfortable aesthetic. The coffee tables are modern with dark, reflective tops and metallic accents."
+  },
+  {
+    "id": "dg-s71-3",
+    "name": "柯多尼—边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A modern and minimalist living room setup featuring a large L-shaped sectional sofa in a light neutral fabric, complemented by a dark rectangular coffee table and a round mustard-colored armchair. The overall style is contemporary with a focus on comfort and sophisticated simplicity."
+  },
+  {
+    "id": "vt24-01166",
+    "name": "格莫—沙发 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A large, light-colored modular sofa with a contemporary design and integrated dark wood side tables. The sofa features plush cushions and a textured fabric upholstery, complemented by black accent pillows."
+  },
+  {
+    "id": "vt24-01373",
+    "name": "格莱斯顿-茶几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A contemporary living room features a large, off-white modular sofa with a textured fabric, complemented by a black marble coffee table and a red cylindrical side table with a glass top. The room is decorated with a colorful abstract painting and various potted plants, all resting on a light-colored rug with dark, organic patterns."
+  },
+  {
+    "id": "dg-s14-1",
+    "name": "森谷—沙发 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A large, modern sectional sofa in a light cream or off-white boucle fabric with wooden legs is featured in a living room setting. A unique coffee table with a glass top and a black marble section sits on a green and yellow plaid rug."
+  },
+  {
+    "id": "dg-s14-2",
+    "name": "森谷—茶几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A modern, minimalist modular sofa with a chaise lounge component, featuring a low profile, two back cushions with decorative stitching, and block feet. The design suggests a contemporary style, likely upholstered in a neutral fabric, though the color is not specified."
+  },
+  {
+    "id": "vt24-00388",
+    "name": "棱镜—边几 (x2) (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "A modern side table with two circular black wooden tops and a bronze-colored metal stand and base. It features a unique clear acrylic vase with multiple test tube-like compartments holding branches and water."
+  },
+  {
+    "id": "dg-s36-3",
+    "name": "比亚尼 —茶几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A modern living room setup featuring two rounded armchairs in white and beige, a round wooden coffee table with a marble base, and a colorful geometric rug. The room is decorated with various green plants and has a textured gray wall with rectangular cutouts."
+  },
+  {
+    "id": "vt24-01172",
+    "name": "泰莎—墩 (x2) (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A modern chaise lounge with a simple design, featuring a single armrest and a cushioned seat. The furniture appears to be upholstered in a light-colored fabric, possibly white or off-white, and has small, discreet legs."
+  },
+  {
+    "id": "vt24-01197",
+    "name": "洛哲—餐椅 (x10) (Showroom)",
+    "current_cat": "dining-chairs",
+    "correct_cat": "dining-chairs",
+    "image_shows": "A contemporary dining set featuring a round table with a marble-like top and dark wood trim, surrounded by eight dining chairs with dark frames and light-colored upholstered seats. The chairs have a sleek, minimalist design."
+  },
+  {
+    "id": "dv25-00633",
+    "name": "海伦—茶几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "A modern, minimalist side table in a dark gray or charcoal color, featuring a round top and a unique C-shaped base. The table appears to be made of metal or a similar sturdy material, designed for a sleek and contemporary aesthetic."
+  },
+  {
+    "id": "vt24-00350",
+    "name": "海浪-2—展架 (Showroom)",
+    "current_cat": "storage",
+    "correct_cat": "storage",
+    "image_shows": "A unique, modern shelving unit featuring light wood shelves supported by striking blue leather straps with white stitching. The design is both functional and decorative, offering a contemporary aesthetic."
+  },
+  {
+    "id": "vt24-00378",
+    "name": "灵芝—边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "A hexagonal side table made of dark reddish-brown marble with prominent white veining. It features a minimalist design with an open base, showcasing the natural beauty of the stone."
+  },
+  {
+    "id": "dg-s08-4",
+    "name": "爱丽丝—边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "A modern side table with a dark, possibly black or dark brown, square top with rounded edges and an open rectangular shelf, supported by a cylindrical metallic base. The table has a sleek and minimalist design, suitable for contemporary interiors."
+  },
+  {
+    "id": "vt24-01177",
+    "name": "科尔—书椅 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern office chair with a light yellow leather upholstery and a black five-star base with casters. The chair features a high back, armrests, and a swivel mechanism."
+  },
+  {
+    "id": "vt25-00682",
+    "name": "竹节—沙发 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "This is a large, modern modular sofa in a dark charcoal or black fabric, featuring a curved design and soft, rounded edges. It is adorned with a mix of solid yellow and black and white patterned throw pillows, complementing the contemporary aesthetic."
+  },
+  {
+    "id": "dg-s08-2",
+    "name": "米尔顿—茶几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A modern, minimalist sofa and armchair set, likely upholstered in a light-colored fabric, featuring clean lines and low-profile designs. The sofa is a three-seater, and there's also a modular corner piece shown in a top-down view, indicating a customizable configuration."
+  },
+  {
+    "id": "vt24-01195",
+    "name": "约克—书椅 (x3) (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "dining-chairs",
+    "image_shows": "Two contemporary dining chairs with rounded, upholstered frames in a light cream bouclé fabric are positioned around a dark marble dining table. The chairs feature a distinctive, chunky design with a textured finish, complementing the sleek, dark tabletop."
+  },
+  {
+    "id": "dg-s68-1",
+    "name": "罗伯托—边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A large, modern modular sofa in a vibrant mustard yellow velvet or fabric is arranged in an L-shape, complemented by a round white coffee table with a tray of drinks and two cream-colored leather lounge chairs. The room features dark gray walls, a light-colored rug with a grid pattern, and dark marble flooring."
+  },
+  {
+    "id": "dg-s56-1",
+    "name": "考尔德—边柜 (Showroom)",
+    "current_cat": "storage",
+    "correct_cat": "console-tables",
+    "image_shows": "A modern and elegant living room setup featuring a light-colored modular sofa with brown leather armrests, complemented by a long, dark wood and metal console table. The table holds decorative items including books and a glowing mushroom-shaped lamp, all set against a dark wood paneled wall and dark wooden flooring."
+  },
+  {
+    "id": "dg-s11-1",
+    "name": "艾琳娜—沙发 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A light gray two-seater sofa with a slightly curved backrest and small square feet is shown from the front and top-down view. The top-down view shows an L-shaped configuration, suggesting it's a modular piece or a corner sofa."
+  },
+  {
+    "id": "vt25-00192",
+    "name": "艾米伊—餐椅 (x4) (Showroom)",
+    "current_cat": "dining-chairs",
+    "correct_cat": "dining-chairs",
+    "image_shows": "A modern, armless dining chair with a rounded back and seat, upholstered in a textured burnt orange fabric. It features a unique conical base, also upholstered in the same fabric, giving it a sculptural and contemporary look."
+  },
+  {
+    "id": "dv25-00678",
+    "name": "莱利—沙发 (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "sofas",
+    "image_shows": "This image features a contemporary living room with two large, light-colored sofas and two unique coffee tables. The sofas appear to be upholstered in a textured fabric, possibly boucle or a similar material, and are complemented by a plaid armchair and a shaggy brown rug."
+  },
+  {
+    "id": "vt25-00168",
+    "name": "谧镜—茶桌 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "desks",
+    "image_shows": "A modern, minimalist desk with a black tabletop and legs, featuring a light wood accent on one side. The desk has integrated storage compartments and power outlets, suggesting functionality and a sleek design."
+  },
+  {
+    "id": "dg-s64-2",
+    "name": "贝斯—吧凳 (x2) (Showroom)",
+    "current_cat": "sofas",
+    "correct_cat": "dining-chairs",
+    "image_shows": "Two modern black bar stools with rounded backs and seats, upholstered in a textured fabric, and supported by slender black metal legs with footrests."
+  },
+  {
+    "id": "dv25-00638",
+    "name": "边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "nightstands",
+    "image_shows": "A modern, minimalist side table or nightstand in a light taupe or beige color, featuring a single drawer and an asymmetrical leg design. It appears to be made of a solid material, possibly wood or a composite, with a smooth, matte finish."
+  },
+  {
+    "id": "vt24-00389",
+    "name": "边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "coffee-tables",
+    "image_shows": "A modern round coffee table with a polished white marble top and a cylindrical marble base with a reflective metal disc at the bottom. The table has a sleek and elegant design, suitable for a contemporary living space."
+  },
+  {
+    "id": "dg-s59-1",
+    "name": "达伦-4—边柜 (Showroom)",
+    "current_cat": "storage",
+    "correct_cat": "storage",
+    "image_shows": "A modern, two-drawer storage unit with a dark red, glossy finish on the drawer fronts and a dark frame. It features a small, mushroom-shaped lamp on its top surface."
+  },
+  {
+    "id": "dv25-00628",
+    "name": "达芬奇—书桌 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "dining-tables",
+    "image_shows": "This image features a contemporary dining set with a dark oval dining table and four light-colored dining chairs with sleek metal legs. The chairs have a textured fabric upholstery and a smooth, possibly leather or faux leather, backrest."
+  },
+  {
+    "id": "vt23-01198",
+    "name": "迪卡斯—床 (Showroom)",
+    "current_cat": "beds",
+    "correct_cat": "side-tables",
+    "image_shows": "Three modern, round stools are featured, each with a solid base in a different color (red, light blue, and dark blue/black) and a top surface made of tightly packed, light-colored wooden dowels or sticks."
+  },
+  {
+    "id": "dg-s33-1",
+    "name": "长椅 (Showroom)",
+    "current_cat": "dining-chairs",
+    "correct_cat": "sofas",
+    "image_shows": "A mid-century modern style sofa with a deep red textured fabric upholstery and exposed wooden legs. It features a simple, clean design with rolled armrests and a single black throw pillow."
+  },
+  {
+    "id": "dg-s77-1",
+    "name": "雷纳 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "modular-sofas",
+    "image_shows": "This image features a contemporary living room with two off-white, textured fabric modular sofas, accented with dark and patterned throw pillows. A large oval coffee table with a wooden top and a smaller white cylindrical side table are placed on a multi-colored rug."
+  },
+  {
+    "id": "vt25-00171",
+    "name": "雷纳—茶几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "modular-sofas",
+    "image_shows": "A modern, modular sectional sofa in a light, textured fabric (likely boucle or similar) is featured, accompanied by two round coffee tables, one with a brown tray top and the other a solid white cylinder. The overall aesthetic is contemporary and minimalist, emphasizing comfort and soft, rounded forms."
+  },
+  {
+    "id": "vt24-01165",
+    "name": "风笛—边几 (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A vibrant green lounge chair with a unique, curved backrest and armrests, supported by a slender red metal frame. Beside it stands a small, round red side table, both resting on a yellow and brown patterned rug."
+  },
+  {
+    "id": "vt25-00205",
+    "name": "马丁—单人沙发 (Showroom)",
+    "current_cat": "lounge-chairs",
+    "correct_cat": "lounge-chairs",
+    "image_shows": "A modern chaise lounge chair with a brown leather headrest and a patchwork cowhide seat in shades of brown and white. The chair has a sleek, dark frame and is placed on a dark gray tiled floor."
+  },
+  {
+    "id": "vt25-00590",
+    "name": "麦肯西—茶几 (x2) (Showroom)",
+    "current_cat": "tables",
+    "correct_cat": "side-tables",
+    "image_shows": "A modern side table with a glossy red cylindrical base and a clear glass top shaped like a four-leaf clover. It is placed on a light-colored rug with a dark abstract pattern, next to a cream-colored modular sofa and a black marble coffee table."
+  }
+]

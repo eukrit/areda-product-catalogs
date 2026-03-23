@@ -1,0 +1,185 @@
+Verifying 174 products with Gemini 2.5 Flash...
+
+⚠️  3-Seat Sofa Adjustable Back                  | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Balance Stumps Set of 12                     | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  Bathroom Bench                               | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  Bed King 180x200                             | ERROR: Expecting ',' delimiter: line 1 column 32 (char 31
+⚠️  Bed King Full + Headboard                    | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Bed King Simpson                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Coffee Table Large                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Coffee Table Venice Brown Marble             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Console Table Ash + SS                       | ERROR: Expecting value: line 1 column 31 (char 30)
+⚠️  Console Table Gold-Plated                    | ERROR: Expecting value: line 1 column 31 (char 30)
+⚠️  Console Table Horn Inlays                    | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  Dining Armchair Mocha Oak                    | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Dining Armchair SODA Leather                 | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  Dining Chair Ash                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Dining Chair Cuoio Leather                   | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Dining Chair GAMMA Leather                   | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Dining Chair Mixed Material                  | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Dining Chair Walnut                          | ERROR: Expecting value: line 1 column 30 (char 29)
+⚠️  Dining Table                                 | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Dining Table White Marble                    | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  Doodle Chalkboard L120                       | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Executive Office Chair                       | ERROR: Expecting ',' delimiter: line 1 column 33 (char 32
+⚠️  Lounge Chair 360 Swivel                      | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  Lounge Chair GAMMA + Oak                     | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  Material Sample Box Set                      | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Modular Corner (Full Grain Leather)          | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  Modular Left Chaise + Marble Table           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Modular Left Corner A + Marble Table         | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Modular Right L-Shape + Marble Table         | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Modular Sofa 2-Seat                          | ERROR: Expecting property name enclosed in double quotes:
+--- 30/174 ---
+⚠️  Modular Sofa Single Module                   | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Night Stand Leather                          | ERROR: Expecting ',' delimiter: line 1 column 35 (char 34
+⚠️  Night Stand White Lacquer                    | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Ottoman GAMMA Leather                        | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  Outdoor 2-Seater Sofa                        | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Outdoor Armchair Aluminum                    | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Outdoor Armchair Mangrove                    | ERROR: Expecting ',' delimiter: line 1 column 34 (char 33
+⚠️  Round Dining Table Carrara                   | ERROR: Expecting property name enclosed in double quotes:
+⚠️  SD001 Hardware Unit V01                      | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  SZ001 Hardware Unit V02                      | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Side Table Marble                            | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  Side Table Port Laurent Marble               | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Side Table Round                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Single Sofa Adjustable Back                  | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Single Sofa Litchi Leather                   | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Stool Napa Leather Woven                     | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  TOUCH—单人沙发 (Showroom)                        | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  TOUCH—单人沙发 (Showroom)                        | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  Throw Cushion Leather                        | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Walk-in Closet Cabinet                       | ERROR: Expecting property name enclosed in double quotes:
+⚠️  Writing Desk Mocha Oak                       | ERROR: Expecting property name enclosed in double quotes:
+⚠️  edra进口原版-单人沙发 (Showroom)                     | ERROR: Unterminated string starting at: line 1 column 17 
+⚠️  书桌 (x1) (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  云柚-茶桌 (Showroom)                             | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  伊夫—沙发 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  伊斯—书椅 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  伊森—边几 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  伊莎—单人沙发 (Showroom)                           | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  信条—书桌 (Showroom)                             | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  克拉丽莎—单人沙发 (Showroom)                         | ERROR: Expecting value: line 2 column 11 (char 12)
+--- 60/174 ---
+⚠️  兰姆—展架 (x2) (Showroom)                        | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  兰帕德—单人沙发 (Showroom)                          | ERROR: Expecting ',' delimiter: line 1 column 33 (char 32
+⚠️  劳森—餐椅 (x6) (Showroom)                        | ERROR: Expecting property name enclosed in double quotes:
+⚠️  劳瑞尔-餐椅 (Showroom)                            | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  劳瑞尔—单人沙发 (Showroom)                          | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  单人沙发 (Showroom)                              | ERROR: Expecting property name enclosed in double quotes:
+⚠️  单人沙发 (Showroom)                              | ERROR: Expecting property name enclosed in double quotes:
+⚠️  单人沙发 (Showroom)                              | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  卡梅洛特—沙发 (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  卡纳瑞—沙发 (Showroom)                            | ERROR: Expecting property name enclosed in double quotes:
+⚠️  卢卡斯—茶几 (Showroom)                            | ERROR: Expecting ',' delimiter: line 1 column 32 (char 31
+⚠️  古德—边几 (x2) (Showroom)                        | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  哈雅玛—边柜 (Showroom)                            | ERROR: Expecting property name enclosed in double quotes:
+⚠️  图玛—茶几 (Showroom)                             | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  坎德尔—单人沙发 (Showroom)                          | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  天秤座—床 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  天秤座—床尾榻 (Showroom)                           | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  奈良—茶几 (x1) (Showroom)                        | ERROR: Expecting property name enclosed in double quotes:
+⚠️  奥坦—边柜 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  奥斯汀—墩 (Showroom)                             | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  奥林-展示架 (Showroom)                            | ERROR: Expecting property name enclosed in double quotes:
+⚠️  奥莱—单人沙发 (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  安吉拉 (Showroom)                               | ERROR: Expecting property name enclosed in double quotes:
+⚠️  安瑟姆 (Showroom)                               | ERROR: Expecting property name enclosed in double quotes:
+⚠️  尼科—餐桌 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  屏风 (x1) (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  展示架 (x2) (Showroom)                          | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  岩石—沙发 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  巴迪—墩 (Showroom)                              | ERROR: Expecting property name enclosed in double quotes:
+⚠️  布加迪-单人沙发 (Showroom)                          | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+--- 90/174 ---
+⚠️  布拉雷—床头柜 (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  布朗尼—边柜 (Showroom)                            | ERROR: Expecting property name enclosed in double quotes:
+⚠️  布莱恩—书椅 (Showroom)                            | ERROR: Expecting property name enclosed in double quotes:
+⚠️  帆船—展架 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  帕蒂—单人沙发 (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  库贝—沙发 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  弗里曼+劳伦斯+S—沙发 (Showroom)                      | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  托卡—边几 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  托瑞尼—单人沙发 (Showroom)                          | ERROR: Expecting property name enclosed in double quotes:
+⚠️  托瑞玛—床头柜 (x2) (Showroom)                      | ERROR: Expecting property name enclosed in double quotes:
+⚠️  拉图—边几 (Showroom)                             | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  拉娜—玄关 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  摩根—餐桌 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  撒罗—餐桌 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  斯特拉—茶几 (Showroom)                            | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  方—餐桌 (Showroom)                              | ERROR: Expecting property name enclosed in double quotes:
+⚠️  柯多尼 —茶几 (Showroom)                           | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  柯多尼—边几 (Showroom)                            | ERROR: Expecting value: line 1 column 30 (char 29)
+⚠️  格莫—沙发 (Showroom)                             | ERROR: Expecting ',' delimiter: line 1 column 33 (char 32
+⚠️  格莱斯顿-茶几 (Showroom)                           | ERROR: Expecting value: line 1 column 30 (char 29)
+⚠️  森谷—沙发 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  森谷—茶几 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  棱镜—边几 (x2) (Showroom)                        | ERROR: Expecting property name enclosed in double quotes:
+⚠️  椅子 (Showroom)                                | ERROR: Expecting property name enclosed in double quotes:
+⚠️  欧文—沙发 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  比亚尼 —茶几 (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  波波—茶几 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  泰莎—墩 (x2) (Showroom)                         | ERROR: Expecting ',' delimiter: line 1 column 33 (char 32
+⚠️  洛克—床头柜 (x2) (Showroom)                       | ERROR: Expecting property name enclosed in double quotes:
+⚠️  洛哲—餐椅 (x10) (Showroom)                       | ERROR: Expecting value: line 2 column 11 (char 12)
+--- 120/174 ---
+⚠️  海伦—茶几 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  海浪-2—展架 (Showroom)                           | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  灵芝—边几 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  灵魂之舞—边柜 (Showroom)                           | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  爱丽丝—边几 (Showroom)                            | ERROR: Expecting property name enclosed in double quotes:
+⚠️  瑞恩—单人沙发 (Showroom)                           | ERROR: Expecting value: line 1 column 30 (char 29)
+⚠️  百叶—餐桌 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  科尔—书椅 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  竹节—沙发 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  米尔顿—茶几 (Showroom)                            | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  约克—书椅 (x3) (Showroom)                        | ERROR: Expecting property name enclosed in double quotes:
+⚠️  维戈—餐椅 (x2) (Showroom)                        | ERROR: Expecting property name enclosed in double quotes:
+⚠️  罗伯托—边几 (Showroom)                            | ERROR: Expecting property name enclosed in double quotes:
+⚠️  罗伯托—边几 (Showroom)                            | ERROR: Expecting ',' delimiter: line 1 column 33 (char 32
+⚠️  考尔德—边柜 (Showroom)                            | ERROR: Expecting property name enclosed in double quotes:
+⚠️  艾琳娜—沙发 (Showroom)                            | ERROR: Expecting property name enclosed in double quotes:
+⚠️  艾米—单人沙发 (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  艾米伊—餐椅 (x4) (Showroom)                       | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  艾米脚凳 (Showroom)                              | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  茶几 (Showroom)                                | ERROR: Expecting property name enclosed in double quotes:
+⚠️  茶水柜 (Showroom)                               | ERROR: Expecting property name enclosed in double quotes:
+⚠️  莫里诺—单人沙发 (Showroom)                          | ERROR: Expecting property name enclosed in double quotes:
+⚠️  莫里诺—单人沙发 (Showroom)                          | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  莱利—沙发 (Showroom)                             | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  菲利—床头柜 (x2) (Showroom)                       | ERROR: Expecting ',' delimiter: line 1 column 33 (char 32
+⚠️  萨科—单人沙发 (Showroom)                           | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  薇薇安—沙发 (Showroom)                            | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  角几 (Showroom)                                | ERROR: Expecting property name enclosed in double quotes:
+⚠️  谧镜—茶桌 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  贝塔—单人沙发 (x2) (Showroom)                      | ERROR: Expecting property name enclosed in double quotes:
+--- 150/174 ---
+⚠️  贝斯—吧凳 (x2) (Showroom)                        | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  边几 (Showroom)                                | ERROR: Expecting value: line 1 column 31 (char 30)
+⚠️  边几 (Showroom)                                | ERROR: Expecting property name enclosed in double quotes:
+⚠️  边几 (Showroom)                                | ERROR: Expecting property name enclosed in double quotes:
+⚠️  达伦-4—边柜 (Showroom)                           | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  达芬奇—书桌 (Showroom)                            | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  迪卡斯—床 (Showroom)                             | ERROR: Expecting ',' delimiter: line 1 column 33 (char 32
+⚠️  迪沃—边几 (Showroom)                             | ERROR: Expecting property name enclosed in double quotes:
+⚠️  道森—吧凳 (x2) (Showroom)                        | ERROR: Expecting property name enclosed in double quotes:
+⚠️  邦迪—床 (Showroom)                              | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  里士满—边柜 (Showroom)                            | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  长椅 (Showroom)                                | ERROR: Expecting property name enclosed in double quotes:
+⚠️  阿德瑞安—书桌 (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  阿斯顿—餐椅 (x2) (Showroom)                       | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  阿斯顿—餐椅 (x2) (Showroom)                       | ERROR: Expecting property name enclosed in double quotes:
+⚠️  雷纳 (Showroom)                                | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  雷纳—茶几 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  风笛—边几 (Showroom)                             | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  餐椅 (x6) (Showroom)                           | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  马丁—单人沙发 (Showroom)                           | ERROR: Expecting property name enclosed in double quotes:
+⚠️  马克托尼—边柜 (Showroom)                           | ERROR: Expecting ',' delimiter: line 2 column 16 (char 17
+⚠️  马西尔—边几 (Showroom)                            | ERROR: Expecting value: line 2 column 11 (char 12)
+⚠️  马里奥—单人沙发 (Showroom)                          | ERROR: Expecting ',' delimiter: line 2 column 17 (char 18
+⚠️  麦肯西—茶几 (x2) (Showroom)                       | ERROR: Expecting ',' delimiter: line 1 column 34 (char 33
+
+================================================================================
+DONE: 174 products
+Mismatches: 0

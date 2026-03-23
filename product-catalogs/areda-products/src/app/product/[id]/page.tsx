@@ -82,6 +82,7 @@ export default function ProductDetailPage() {
                 src={allImages[activeImage]}
                 alt={product.name}
                 fill
+                unoptimized
                 className="object-cover"
                 priority
               />
@@ -103,7 +104,7 @@ export default function ProductDetailPage() {
                     i === activeImage ? "border-charcoal" : "border-border hover:border-taupe"
                   }`}
                 >
-                  <Image src={url} alt="" fill className="object-cover" />
+                  <Image src={url} alt="" fill unoptimized className="object-cover" />
                 </button>
               ))}
             </div>

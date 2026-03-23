@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "@/lib/firebase";
@@ -78,13 +78,10 @@ export default function ProductDetailPage() {
         <div>
           <div className="relative aspect-square overflow-hidden rounded-lg bg-surface-cream">
             {allImages.length > 0 ? (
-              <Image
+              <img
                 src={allImages[activeImage]}
                 alt={product.name}
-                fill
-                unoptimized
-                className="object-cover"
-                priority
+                className="absolute inset-0 h-full w-full object-cover"
               />
             ) : (
               <div className="absolute inset-0 flex items-center justify-center text-taupe">
@@ -104,7 +101,7 @@ export default function ProductDetailPage() {
                     i === activeImage ? "border-charcoal" : "border-border hover:border-taupe"
                   }`}
                 >
-                  <Image src={url} alt="" fill unoptimized className="object-cover" />
+                  <img src={url} alt="" className="absolute inset-0 h-full w-full object-cover" />
                 </button>
               ))}
             </div>

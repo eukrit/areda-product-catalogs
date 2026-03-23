@@ -11,10 +11,9 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border bg-areda-white/95 backdrop-blur-sm">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-8 lg:px-12">
         {/* Logo / Wordmark */}
-        <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold tracking-tight text-charcoal">
-            areda atelier
-          </span>
+        <Link href="/" className="flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo.svg" alt="Areda Atelier" className="h-7 w-auto" />
         </Link>
 
         {/* Navigation */}

@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+@theme {
+  /* Areda Atelier — Color Palette */
+  --color-charcoal: #252828;
+  --color-cream: #E1DFD4;
+  --color-taupe: #928A83;
+  --color-deep-dark: #121615;
+  --color-areda-white: #FFFFFF;
+  --color-areda-black: #000000;
+
+  /* Semantic aliases */
+  --color-primary: #252828;
+  --color-secondary: #928A83;
+  --color-surface: #FFFFFF;
+  --color-surface-cream: #E1DFD4;
+  --color-surface-dark: #121615;
+  --color-on-primary: #FFFFFF;
+  --color-on-cream: #252828;
+  --color-on-dark: #E1DFD4;
+  --color-muted: #928A83;
+  --color-border: #E1DFD4;
+  --color-border-dark: #252828;
+
+  /* Typography */
+  --font-sans: "Manrope", system-ui, sans-serif;
+}
+
+/* Areda spacing tokens as CSS vars (do NOT put in @theme to avoid overriding Tailwind defaults) */
+:root {
+  --areda-xxs: 4px;
+  --areda-xs: 8px;
+  --areda-sm: 12px;
+  --areda-md: 16px;
+  --areda-lg: 24px;
+  --areda-xl: 32px;
+  --areda-2xl: 48px;
+  --areda-3xl: 64px;
+  --areda-4xl: 96px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  color: var(--color-charcoal);
+  background-color: var(--color-areda-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Overline text style from Figma — 12px / 17px · SemiBold · uppercase · 0.1em tracking */
+.overline {
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Caption text style from Figma — 12px / 17px · Medium */
+.caption {
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+/* Smooth page transitions */
+.page-transition {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Product card hover effect */
+.product-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px rgba(37, 40, 40, 0.1);
+}
+
+/* Price reveal animation */
+.price-reveal {
+  animation: priceSlide 0.3s ease-out;
+}
+@keyframes priceSlide {
+  from { opacity: 0; transform: translateX(-8px); }
+  to { opacity: 1; transform: translateX(0); }
+}

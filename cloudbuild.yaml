@@ -1,0 +1,49 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - 'asia-southeast1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/areda-catalog:$COMMIT_SHA'
+      - '.'
+
+  # Push the container image to Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'asia-southeast1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/areda-catalog:$COMMIT_SHA'
+
+  # Deploy to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'areda-catalog'
+      - '--image'
+      - 'asia-southeast1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/areda-catalog:$COMMIT_SHA'
+      - '--region'
+      - 'asia-southeast1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--port'
+      - '8080'
+      - '--memory'
+      - '512Mi'
+      - '--cpu'
+      - '1'
+      - '--min-instances'
+      - '0'
+      - '--max-instances'
+      - '3'
+      - '--set-env-vars'
+      - 'NODE_ENV=production,NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyCd0sodGFRkjblQ-Rhl8cg7tGcRHkOu1QY,NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=ai-agents-go.firebaseapp.com,NEXT_PUBLIC_FIREBASE_PROJECT_ID=ai-agents-go,NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=ai-agents-go.firebasestorage.app,NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=538978391890,NEXT_PUBLIC_FIREBASE_APP_ID=1:538978391890:web:7caad0a5e8334679f0cc8b'
+      - '--service-account'
+      - 'claude@ai-agents-go.iam.gserviceaccount.com'
+
+images:
+  - 'asia-southeast1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/areda-catalog:$COMMIT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY

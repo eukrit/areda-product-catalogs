@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect, useMemo, useRef, useCallback } from "react";
+import { useState, useEffect, useMemo, useRef, useCallback, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 import { useAuth } from "@/lib/auth-context";
@@ -10,11 +11,23 @@ import { ProductCard } from "@/components/ProductCard";
 
 const PAGE_SIZE = 12;
 
-export default function CatalogPage() {
+export default function CatalogPageWrapper() {
+  return (
+    <Suspense fallback={<div className="mx-auto max-w-7xl px-6 py-16">Loading...</div>}>
+      <CatalogPage />
+    </Suspense>
+  );
+}
+
+function CatalogPage() {
   const { isInternal } = useAuth();
+  const searchParams = useSearchParams();
   const [allProducts, setAllProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
-  const [filter, setFilter] = useState<ProductFilter>({});
+  const [filter, setFilter] = useState<ProductFilter>(() => {
+    const col = searchParams.get("collection");
+    return col ? { collection: col } : {};
+  });
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [loadingMore, setLoadingMore] = useState(false);
   const sentinelRef = useRef<HTMLDivElement>(null);
@@ -139,6 +152,23 @@ export default function CatalogPage() {
           </p>
         </div>
       </section>
+
+      {/* Collection filter banner */}
+      {filter.collection && (
+        <div className="border-b border-border bg-charcoal text-areda-white">
+          <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 md:px-8 lg:px-12">
+            <span className="text-sm font-medium">
+              Collection: <strong>{filter.collection}</strong>
+            </span>
+            <button
+              onClick={() => setFilter({ ...filter, collection: undefined })}
+              className="rounded-full bg-areda-white/20 px-3 py-1 text-xs font-medium hover:bg-areda-white/30 transition-colors"
+            >
+              Clear filter
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Category Pills */}
       <div className="border-b border-border bg-areda-white">

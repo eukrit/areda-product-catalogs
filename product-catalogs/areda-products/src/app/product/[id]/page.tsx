@@ -120,29 +120,40 @@ export default function ProductDetailPage() {
           <p className="mt-2 text-sm text-muted">{product.productCode}</p>
 
           {/* Price — internal only */}
-          {isInternal && (
-            <div className="price-reveal mt-6 rounded-lg bg-surface-cream p-4">
-              <p className="overline mb-2 text-taupe">Pricing (Internal)</p>
-              <div className="flex items-baseline gap-4">
-                {product.priceFobUsd > 0 && (
-                  <div>
-                    <span className="text-2xl font-bold text-charcoal">
-                      ${product.priceFobUsd.toLocaleString("en-US", { minimumFractionDigits: 2 })}
+          {isInternal && (() => {
+            const RMB_TO_USD = 7.25;
+            const MARKUP = 2.0;
+            const displayPrice =
+              product.priceFobUsd > 0 ? product.priceFobUsd
+              : product.priceExwUsd > 0 ? product.priceExwUsd
+              : product.priceRmb > 0 ? (product.priceRmb / RMB_TO_USD) * MARKUP
+              : 0;
+            const isConverted = !product.priceFobUsd && !product.priceExwUsd && product.priceRmb > 0;
+            return displayPrice > 0 ? (
+              <div className="price-reveal mt-6 rounded-lg bg-surface-cream p-4">
+                <p className="overline mb-2 text-taupe">Pricing (Internal)</p>
+                <div className="flex items-baseline gap-4">
+                  <span className="text-2xl font-bold text-charcoal">
+                    ${displayPrice.toLocaleString("en-US", { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                  </span>
+                  {isConverted && (
+                    <span className="text-sm text-taupe">
+                      (¥{product.priceRmb.toLocaleString("zh-CN")} × 2.0)
                     </span>
-                    <span className="ml-2 text-sm text-taupe">FOB Shanghai</span>
-                  </div>
+                  )}
+                  {!isConverted && product.priceFobUsd > 0 && (
+                    <span className="text-sm text-taupe">FOB Shanghai</span>
+                  )}
+                </div>
+                {product.moq > 0 && (
+                  <p className="caption mt-2 text-muted">MOQ: {product.moq} units</p>
                 )}
-                {product.priceExwUsd > 0 && (
-                  <div className="text-sm text-taupe">
-                    EXW ${product.priceExwUsd.toLocaleString("en-US", { minimumFractionDigits: 2 })}
-                  </div>
-                )}
+                <p className="mt-3 text-xs text-taupe italic">
+                  * Price excludes local delivery and installation
+                </p>
               </div>
-              {product.moq > 0 && (
-                <p className="caption mt-2 text-muted">MOQ: {product.moq} units</p>
-              )}
-            </div>
-          )}
+            ) : null;
+          })()}
 
           {/* Specs */}
           <div className="mt-6 space-y-4">

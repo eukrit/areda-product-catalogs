@@ -18,6 +18,7 @@ export interface Product {
   volumeCbm: number;
   priceExwUsd: number;
   priceFobUsd: number;
+  priceRmb: number;
   currency: string;
   moq: number;
   leadTimeDays: number;

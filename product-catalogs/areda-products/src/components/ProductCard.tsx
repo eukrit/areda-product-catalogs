@@ -15,6 +15,18 @@ export function ProductCard({ product }: Props) {
     .replace(/-/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
 
+  // Compute display price: prefer FOB USD, else convert RMB -> USD (÷7.25) then ×2.0 markup
+  const RMB_TO_USD = 7.25;
+  const MARKUP = 2.0;
+  const displayPrice =
+    product.priceFobUsd > 0
+      ? product.priceFobUsd
+      : product.priceExwUsd > 0
+        ? product.priceExwUsd
+        : product.priceRmb > 0
+          ? (product.priceRmb / RMB_TO_USD) * MARKUP
+          : 0;
+
   return (
     <Link href={`/product/${product.id}`}>
       <article className="product-card group overflow-hidden rounded-lg border border-border bg-areda-white">
@@ -59,25 +71,24 @@ export function ProductCard({ product }: Props) {
           )}
 
           {/* Price — only visible to internal users */}
-          {isInternal && (
+          {isInternal && displayPrice > 0 && (
             <div className="price-reveal mt-3 border-t border-border pt-3">
               <div className="flex items-baseline gap-3">
-                {product.priceFobUsd > 0 && (
-                  <span className="text-base font-bold text-charcoal">
-                    ${product.priceFobUsd.toLocaleString("en-US", {
-                      minimumFractionDigits: 2,
-                    })}
-                  </span>
-                )}
-                {product.priceExwUsd > 0 && product.priceExwUsd !== product.priceFobUsd && (
+                <span className="text-base font-bold text-charcoal">
+                  ${displayPrice.toLocaleString("en-US", {
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0,
+                  })}
+                </span>
+                {product.priceRmb > 0 && !product.priceFobUsd && !product.priceExwUsd && (
                   <span className="text-xs text-taupe">
-                    EXW ${product.priceExwUsd.toLocaleString("en-US", {
-                      minimumFractionDigits: 2,
-                    })}
+                    (¥{product.priceRmb.toLocaleString("zh-CN")})
                   </span>
                 )}
               </div>
-              <p className="caption mt-1 text-muted">FOB Shanghai (USD)</p>
+              <p className="caption mt-1 text-muted">
+                USD est. · Excl. delivery &amp; installation
+              </p>
             </div>
           )}
         </div>

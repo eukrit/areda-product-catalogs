@@ -1,11 +1,15 @@
 """Use Gemini 2.5 Flash to describe and verify ALL product images."""
 import os, json, time, urllib.request, base64, re
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\eukri\OneDrive\Documents\Claude Code\Credentials Claude Code\ai-agents-go-4c81b70995db.json"
+CREDS_PATH = os.path.join(os.path.expanduser("~"), "OneDrive", "Documents", "Claude Code", "Credentials Claude Code")
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.join(CREDS_PATH, "ai-agents-go-4c81b70995db.json")
 from google.cloud.firestore_v1 import Client
 
 db = Client(project="ai-agents-go", database="areda-product-catalogs")
-API_KEY = "REDACTED_GEMINI_KEY"
+
+# Load API key from credentials folder (never hardcode)
+with open(os.path.join(CREDS_PATH, "gemini-api-key.txt")) as f:
+    API_KEY = f.read().strip()
 ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
 
 def call_gemini(img_b64, product_desc):

@@ -19,6 +19,11 @@ export interface Product {
   priceExwUsd: number;
   priceFobUsd: number;
   priceRmb: number;
+  listPriceUsd: number;
+  exwPriceCny: number;
+  retailPriceRmb: number;
+  retailPriceUsd: number;
+  exchangeRate: number;
   currency: string;
   moq: number;
   leadTimeDays: number;
@@ -27,6 +32,20 @@ export interface Product {
   visible: boolean;
   createdAt: string;
   updatedAt: string;
+  // Italian original reference
+  italianOriginalRef?: string;
+  italianBrand?: string;
+  italianModel?: string;
+  italianDesigner?: string;
+  italianRetailPriceEur?: number;
+  italianRetailPriceUsd?: number;
+  italianProductUrl?: string;
+  italianOriginalMaterial?: string;
+  italianOriginalDimensions?: string;
+  italianMatchConfidence?: string;
+  italianMatchReason?: string;
+  italianSourceLinks?: { url: string; title: string }[];
+  priceRatioItalianVsAreda?: number;
 }
 
 export type ProductCategory =
@@ -47,7 +66,10 @@ export type ProductCategory =
   | "storage"
   | "lighting"
   | "accessories"
-  | "outdoor";
+  | "outdoor"
+  | "bar-stools"
+  | "benches"
+  | "ottomans";
 
 export interface ProductFilter {
   category?: ProductCategory;

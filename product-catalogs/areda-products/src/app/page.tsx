@@ -59,6 +59,15 @@ function CatalogPage() {
     return cats;
   }, [allProducts]);
 
+  // Extract available collections
+  const availableCollections = useMemo(() => {
+    const cols = new Set<string>();
+    allProducts.forEach((p) => {
+      if (p.collection) cols.add(p.collection);
+    });
+    return Array.from(cols).sort();
+  }, [allProducts]);
+
   // Filtered + sorted products
   const filtered = useMemo(() => {
     let result = [...allProducts];
@@ -219,6 +228,7 @@ function CatalogPage() {
         onFilterChange={setFilter}
         showPriceSort={isInternal}
         totalCount={filtered.length}
+        collections={availableCollections}
       />
 
       {/* Product Grid */}

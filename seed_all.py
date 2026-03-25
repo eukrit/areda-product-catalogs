@@ -8,6 +8,15 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\eukri\OneDrive\Documen
 db = Client(project="ai-agents-go", database="areda-product-catalogs")
 now = datetime.now(timezone.utc).isoformat()
 
+EXCHANGE_RATE = 7.2  # RMB per USD
+RETAIL_MARKUP = 1.2  # 20% international markup
+
+def compute_retail_usd(rmb: float) -> float:
+    """Auto-convert RetailPriceRMB to RetailPriceUSD: RMB / exchangeRate * 1.2"""
+    if rmb > 0:
+        return round(rmb / EXCHANGE_RATE * RETAIL_MARKUP, 2)
+    return 0
+
 # Delete existing
 print("Deleting existing products...")
 for doc in db.collection("products").stream():
@@ -76,6 +85,9 @@ for i, p in enumerate(PRODUCTS):
     p.setdefault("styleCn", "")
     p.setdefault("currency", "USD")
     p.setdefault("leadTimeDays", 60)
+    p.setdefault("retailPriceRmb", p.get("priceRmb", 0))
+    p["retailPriceUsd"] = compute_retail_usd(p.get("retailPriceRmb", 0))
+    p["exchangeRate"] = EXCHANGE_RATE
     p["visible"] = True
     p["createdAt"] = now
     p["updatedAt"] = now

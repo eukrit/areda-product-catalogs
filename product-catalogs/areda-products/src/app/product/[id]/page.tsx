@@ -119,41 +119,59 @@ export default function ProductDetailPage() {
           )}
           <p className="mt-2 text-sm text-muted">{product.productCode}</p>
 
-          {/* Price — internal only */}
-          {isInternal && (() => {
-            const RMB_TO_USD = 7.25;
-            const MARKUP = 2.0;
-            const displayPrice =
-              product.priceFobUsd > 0 ? product.priceFobUsd
-              : product.priceExwUsd > 0 ? product.priceExwUsd
-              : product.priceRmb > 0 ? (product.priceRmb / RMB_TO_USD) * MARKUP
-              : 0;
-            const isConverted = !product.priceFobUsd && !product.priceExwUsd && product.priceRmb > 0;
-            return displayPrice > 0 ? (
-              <div className="price-reveal mt-6 rounded-lg bg-surface-cream p-4">
-                <p className="overline mb-2 text-taupe">Pricing (Internal)</p>
-                <div className="flex items-baseline gap-4">
-                  <span className="text-2xl font-bold text-charcoal">
-                    ${displayPrice.toLocaleString("en-US", { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
-                  </span>
-                  {isConverted && (
-                    <span className="text-sm text-taupe">
-                      (¥{product.priceRmb.toLocaleString("zh-CN")} × 2.0)
+          {/* Public list price */}
+          {(product.listPriceUsd || 0) > 0 && (
+            <div className="mt-6 rounded-lg bg-surface-cream p-4">
+              <span className="text-2xl font-bold text-charcoal">
+                ${product.listPriceUsd.toLocaleString("en-US", { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+              </span>
+              <p className="mt-1 text-xs text-taupe">USD</p>
+            </div>
+          )}
+
+          {/* Internal pricing breakdown — visible when logged in */}
+          {isInternal && ((product.exwPriceCny || 0) > 0 || (product.retailPriceRmb || 0) > 0) && (
+            <div className="price-reveal mt-4 rounded-lg border border-amber-200 bg-amber-50 p-4">
+              <p className="overline mb-3 text-amber-800">Internal Pricing</p>
+              <div className="space-y-2">
+                {(product.exwPriceCny || 0) > 0 && (
+                  <div className="flex items-baseline justify-between">
+                    <span className="text-sm font-medium text-taupe">EXW Factory (CNY)</span>
+                    <span className="text-lg font-bold text-charcoal">
+                      ¥{product.exwPriceCny.toLocaleString("zh-CN", { minimumFractionDigits: 0 })}
                     </span>
-                  )}
-                  {!isConverted && product.priceFobUsd > 0 && (
-                    <span className="text-sm text-taupe">FOB Shanghai</span>
-                  )}
-                </div>
-                {product.moq > 0 && (
-                  <p className="caption mt-2 text-muted">MOQ: {product.moq} units</p>
+                  </div>
                 )}
-                <p className="mt-3 text-xs text-taupe italic">
-                  * Price excludes local delivery and installation
-                </p>
+                {(product.retailPriceRmb || 0) > 0 && (
+                  <div className="flex items-baseline justify-between">
+                    <span className="text-sm font-medium text-taupe">Retail Price (RMB)</span>
+                    <span className="text-lg font-bold text-charcoal">
+                      ¥{product.retailPriceRmb.toLocaleString("zh-CN", { minimumFractionDigits: 0 })}
+                    </span>
+                  </div>
+                )}
+                {(product.retailPriceUsd || 0) > 0 && (
+                  <div className="flex items-baseline justify-between">
+                    <span className="text-sm font-medium text-taupe">Retail Price (USD)</span>
+                    <span className="text-lg font-bold text-charcoal">
+                      ${product.retailPriceUsd.toLocaleString("en-US", { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                    </span>
+                  </div>
+                )}
+                {(product.listPriceUsd || 0) > 0 && (
+                  <div className="flex items-baseline justify-between border-t border-amber-200 pt-2">
+                    <span className="text-sm font-medium text-taupe">List Price (USD)</span>
+                    <span className="text-lg font-bold text-charcoal">
+                      ${product.listPriceUsd.toLocaleString("en-US", { minimumFractionDigits: 0 })}
+                    </span>
+                  </div>
+                )}
               </div>
-            ) : null;
-          })()}
+              {product.moq > 0 && (
+                <p className="caption mt-3 text-muted">MOQ: {product.moq} units</p>
+              )}
+            </div>
+          )}
 
           {/* Specs */}
           <div className="mt-6 space-y-4">

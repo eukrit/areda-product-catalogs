@@ -12,6 +12,15 @@ from datetime import datetime, timezone
 
 db = Client(project="ai-agents-go", database="areda-product-catalogs")
 now = datetime.now(timezone.utc).isoformat()
+
+EXCHANGE_RATE = 7.2  # RMB per USD
+RETAIL_MARKUP = 1.2  # 20% international markup
+
+def compute_retail_usd(rmb: float) -> float:
+    """Auto-convert RetailPriceRMB to RetailPriceUSD: RMB / exchangeRate * 1.2"""
+    if rmb > 0:
+        return round(rmb / EXCHANGE_RATE * RETAIL_MARKUP, 2)
+    return 0
 pptx_path = r"C:\Users\eukri\OneDrive\Documents\Documents GO\WeChat OneDrive\WeChat Grant visconti\2026-02-10 卓越卡萨东莞展厅现货汇总-2025-1110.pptx"
 prs = Presentation(pptx_path)
 base_url = "https://storage.googleapis.com/areda-product-images/dongguan-showroom"
@@ -203,6 +212,9 @@ for i, slide in enumerate(prs.slides):
             "priceExwUsd": 0,
             "priceFobUsd": 0,
             "priceRmb": price_rmb,
+            "retailPriceRmb": price_rmb,
+            "retailPriceUsd": compute_retail_usd(price_rmb),
+            "exchangeRate": EXCHANGE_RATE,
             "currency": "RMB",
             "moq": 1,
             "leadTimeDays": 0,

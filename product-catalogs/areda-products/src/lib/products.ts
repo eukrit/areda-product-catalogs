@@ -15,6 +15,18 @@ import { Product, ProductFilter } from "@/types/product";
 
 const PRODUCTS_COLLECTION = "products";
 const PAGE_SIZE = 24;
+const DEFAULT_EXCHANGE_RATE = 7.2; // RMB per USD
+const RETAIL_MARKUP = 1.2; // 20% international markup
+
+/** Compute retailPriceUsd from retailPriceRmb if not already set */
+export function withRetailUsd(product: Product): Product {
+  const rmb = product.retailPriceRmb || 0;
+  const rate = product.exchangeRate || DEFAULT_EXCHANGE_RATE;
+  if (rmb > 0 && !product.retailPriceUsd) {
+    return { ...product, retailPriceUsd: Math.round((rmb / rate) * RETAIL_MARKUP * 100) / 100 };
+  }
+  return product;
+}
 
 export async function getProducts(
   filter: ProductFilter = {},
@@ -51,7 +63,7 @@ export async function getProducts(
   q = query(q, limit(PAGE_SIZE));
 
   const snapshot = await getDocs(q);
-  const products = snapshot.docs.map((d) => ({ id: d.id, ...d.data() } as Product));
+  const products = snapshot.docs.map((d) => withRetailUsd({ id: d.id, ...d.data() } as Product));
   const lastVisible = snapshot.docs[snapshot.docs.length - 1] || null;
 
   return { products, lastVisible };
@@ -60,7 +72,7 @@ export async function getProducts(
 export async function getProduct(id: string): Promise<Product | null> {
   const snap = await getDoc(doc(db, PRODUCTS_COLLECTION, id));
   if (!snap.exists()) return null;
-  return { id: snap.id, ...snap.data() } as Product;
+  return withRetailUsd({ id: snap.id, ...snap.data() } as Product);
 }
 
 export async function getCollections(): Promise<string[]> {
